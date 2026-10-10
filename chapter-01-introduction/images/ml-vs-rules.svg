@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="t d"><title id="t">Traditional programming compared with machine learning</title><desc id="d">Left: human-written rules applied to new email. Right: labeled examples are used to train a model which predicts labels for new email.</desc><rect width="960" height="420" rx="24" fill="#101828"/>
+<text x="48" y="52" font-family="Arial,sans-serif" font-size="29" font-weight="700" fill="#F9FAFB">Two ways to make a spam detector</text>
+<rect x="34" y="85" width="432" height="302" rx="16" fill="#1F2937" stroke="#64748B"/>
+<rect x="494" y="85" width="432" height="302" rx="16" fill="#1F2937" stroke="#64748B"/>
+<text x="250" y="127" text-anchor="middle" font-family="Arial" font-weight="700" font-size="23" fill="#E2E8F0">Traditional programming</text>
+<text x="710" y="127" text-anchor="middle" font-family="Arial" font-weight="700" font-size="23" fill="#E2E8F0">Machine learning</text>
+<rect x="97" y="157" width="306" height="48" rx="10" fill="#334155"/><text x="250" y="188" text-anchor="middle" font-family="Arial" font-size="18" fill="white">Human writes decision rules</text>
+<path d="M250 207 V232" stroke="#93C5FD" stroke-width="3"/><path d="M242 224 L250 234 L258 224" fill="none" stroke="#93C5FD" stroke-width="3"/>
+<rect x="97" y="243" width="306" height="48" rx="10" fill="#155E75"/><text x="250" y="274" text-anchor="middle" font-family="Arial" font-size="18" fill="white">Apply rules to new email</text>
+<path d="M250 294 V318" stroke="#93C5FD" stroke-width="3"/><path d="M242 310 L250 320 L258 310" fill="none" stroke="#93C5FD" stroke-width="3"/>
+<text x="250" y="352" text-anchor="middle" font-family="Arial" font-size="20" fill="#7DD3FC">Spam / Not spam</text>
+<rect x="557" y="157" width="306" height="48" rx="10" fill="#334155"/><text x="710" y="187" text-anchor="middle" font-family="Arial" font-size="18" fill="white">Labeled example emails</text>
+<path d="M710 207 V230" stroke="#86EFAC" stroke-width="3"/><path d="M702 223 L710 233 L718 223" fill="none" stroke="#86EFAC" stroke-width="3"/>
+<rect x="557" y="241" width="306" height="48" rx="10" fill="#166534"/><text x="710" y="271" text-anchor="middle" font-family="Arial" font-size="18" fill="white">Learning algorithm trains model</text>
+<path d="M710 291 V317" stroke="#86EFAC" stroke-width="3"/><path d="M702 310 L710 320 L718 310" fill="none" stroke="#86EFAC" stroke-width="3"/>
+<text x="710" y="352" text-anchor="middle" font-family="Arial" font-size="20" fill="#86EFAC">Predict new emails</text>
+</svg>

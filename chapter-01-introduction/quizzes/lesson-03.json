@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "lesson_slug": "when-ml-goes-wrong",
+  "type": "practice",
+  "questions": [
+    {
+      "id": "lesson-03-q1",
+      "type": "single-choice",
+      "prompt": "A model is perfect on its training data but poor on new data. This suggests...",
+      "options": [
+        "Overfitting",
+        "Guaranteed safety",
+        "That the test data are useless",
+        "No possible error"
+      ],
+      "correct_option_index": 0,
+      "explanation": "Overfitting means learning training examples without generalizing well."
+    },
+    {
+      "id": "lesson-03-q2",
+      "type": "single-choice",
+      "prompt": "Why can a spam filter fail when spammers change tactics?",
+      "options": [
+        "Distribution shift",
+        "Its battery is empty",
+        "The internet has no rules",
+        "Gradient descent stops existing"
+      ],
+      "correct_option_index": 0,
+      "explanation": "Deployment inputs can differ from training inputs."
+    },
+    {
+      "id": "lesson-03-q3",
+      "type": "single-choice",
+      "prompt": "What is an example of prompt injection?",
+      "options": [
+        "A genuine user asks for help",
+        "An attacker plants instructions in a webpage the assistant is reading",
+        "A student trains a model on examples",
+        "An AI assistant summarizes a trusted article"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Prompt injection happens when attacker-controlled lower-trust content tries to redirect the assistant."
+    },
+    {
+      "id": "lesson-03-q4",
+      "type": "single-choice",
+      "prompt": "A model fails on an email; you suspect the word \"free\" caused it. What is that explanation?",
+      "options": [
+        "A confirmed mechanism",
+        "A hypothesis to test",
+        "Proof of generalization",
+        "A security guarantee"
+      ],
+      "correct_option_index": 1,
+      "explanation": "An observation is not proof of its cause; we need an experiment to test the hypothesis."
+    }
+  ]
+}

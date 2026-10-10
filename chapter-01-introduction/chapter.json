@@ -1,0 +1,26 @@
+{
+  "id": "chapter-01-introduction",
+  "course": "mlfas",
+  "title": "Introduction to Machine Learning",
+  "order": 1,
+  "audience": "absolute beginners",
+  "description": "Understand what ML is, how training works, what deep learning adds, and why models need safety evaluation.",
+  "lessons": [
+    {
+      "slug": "what-is-machine-learning",
+      "file": "01-what-is-machine-learning.md",
+      "quiz": "quizzes/lesson-01.json"
+    },
+    {
+      "slug": "how-machines-learn",
+      "file": "02-how-machines-learn.md",
+      "quiz": "quizzes/lesson-02.json"
+    },
+    {
+      "slug": "when-ml-goes-wrong",
+      "file": "03-when-ml-goes-wrong.md",
+      "quiz": "quizzes/lesson-03.json"
+    }
+  ],
+  "optional_notebook": "notebooks/first-ml-model.ipynb"
+}

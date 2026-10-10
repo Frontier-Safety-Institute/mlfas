@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "lesson_slug": "what-is-machine-learning",
+  "type": "practice",
+  "questions": [
+    {
+      "id": "lesson-01-q1",
+      "type": "single-choice",
+      "prompt": "In our email example, what is the label?",
+      "options": [
+        "The email category (Spam / Not spam)",
+        "The number of words in the email",
+        "The email application itself",
+        "The computer screen"
+      ],
+      "correct_option_index": 0,
+      "explanation": "The label is the target answer provided with the training example."
+    },
+    {
+      "id": "lesson-01-q2",
+      "type": "single-choice",
+      "prompt": "What is the key difference between a hand-written rule and an ML model?",
+      "options": [
+        "ML always predicts perfectly",
+        "ML does not need programmers",
+        "ML learns adjustable patterns from data",
+        "Rules can never classify emails"
+      ],
+      "correct_option_index": 2,
+      "explanation": "A learning algorithm adjusts model parameters using examples; the system still requires human design."
+    },
+    {
+      "id": "lesson-01-q3",
+      "type": "single-choice",
+      "prompt": "What is inference?",
+      "options": [
+        "Updating parameters with each new answer",
+        "Using a trained model to make a prediction",
+        "Manually labeling training data",
+        "Writing a new programming language"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Inference is the prediction stage, typically without weight updates."
+    },
+    {
+      "id": "lesson-01-q4",
+      "type": "single-choice",
+      "prompt": "Which of these is regression?",
+      "options": [
+        "Predicting a house price",
+        "Deciding spam versus not spam",
+        "Recognizing cat versus dog",
+        "Tagging a message as urgent"
+      ],
+      "correct_option_index": 0,
+      "explanation": "Regression predicts numerical values."
+    }
+  ]
+}

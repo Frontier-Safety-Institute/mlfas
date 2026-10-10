@@ -1,0 +1,15 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 300" role="img" aria-labelledby="title desc">
+  <title id="title">A trained model predicts that a new email is spam</title>
+  <desc id="desc">A new email reading “A free gift is waiting for you” is passed to a trained model, which returns the prediction Spam.</desc>
+  <rect x="1" y="1" width="958" height="298" rx="12" fill="#242424" stroke="#3a3a3a" stroke-width="2"/>
+  <rect x="28" y="24" width="904" height="70" rx="10" fill="#303030"/>
+  <text x="480" y="68" text-anchor="middle" fill="#e5e7eb" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="27" font-weight="600">New email: “A free gift is waiting for you”</text>
+  <path d="M480 101v26" fill="none" stroke="#93c5fd" stroke-width="4" stroke-linecap="round"/>
+  <path d="m470 119 10 11 10-11" fill="none" stroke="#93c5fd" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="300" y="139" width="360" height="58" rx="12" fill="#155e75" stroke="#38bdf8" stroke-width="1.5"/>
+  <text x="480" y="176" text-anchor="middle" fill="#f0f9ff" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="24" font-weight="650">Trained model</text>
+  <path d="M480 203v26" fill="none" stroke="#93c5fd" stroke-width="4" stroke-linecap="round"/>
+  <path d="m470 221 10 11 10-11" fill="none" stroke="#93c5fd" stroke-width="4" stroke-linecap="round" stroke-linejoin="round"/>
+  <rect x="300" y="241" width="360" height="42" rx="10" fill="#14532d" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="480" y="270" text-anchor="middle" fill="#dcfce7" font-family="system-ui, -apple-system, Segoe UI, sans-serif" font-size="22" font-weight="650">Prediction: SPAM</text>
+</svg>

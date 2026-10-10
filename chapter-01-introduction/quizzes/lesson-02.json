@@ -1,0 +1,59 @@
+{
+  "schema_version": 1,
+  "lesson_slug": "how-machines-learn",
+  "type": "practice",
+  "questions": [
+    {
+      "id": "lesson-02-q1",
+      "type": "single-choice",
+      "prompt": "What does the loss function do?",
+      "options": [
+        "Stores photos",
+        "Measures how poorly model predictions match targets",
+        "Prevents all misuse",
+        "Collects user passwords"
+      ],
+      "correct_option_index": 1,
+      "explanation": "Loss is a numerical measure of error or objective mismatch during training."
+    },
+    {
+      "id": "lesson-02-q2",
+      "type": "single-choice",
+      "prompt": "What does an optimizer generally change?",
+      "options": [
+        "The original correct labels",
+        "The computer monitor",
+        "The model parameters",
+        "The problem definition automatically"
+      ],
+      "correct_option_index": 2,
+      "explanation": "The optimizer updates parameter values to improve an objective such as reducing loss."
+    },
+    {
+      "id": "lesson-02-q3",
+      "type": "single-choice",
+      "prompt": "Predicting the next token from text is usually an example of...",
+      "options": [
+        "Reinforcement learning",
+        "Self-supervised learning",
+        "No learning",
+        "Only traditional programming"
+      ],
+      "correct_option_index": 1,
+      "explanation": "The target can be drawn from the text itself."
+    },
+    {
+      "id": "lesson-02-q4",
+      "type": "single-choice",
+      "prompt": "What distinguishes deep learning?",
+      "options": [
+        "It uses neural networks with multiple layers",
+        "It never requires data",
+        "It can only classify cats",
+        "It guarantees accurate answers"
+      ],
+      "correct_option_index": 0,
+      "explanation": "Deep learning learns multiple layers of representations within a neural network."
+    }
+  ]
+}

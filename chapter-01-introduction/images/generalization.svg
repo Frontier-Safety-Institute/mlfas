@@ -1,0 +1,10 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 420" role="img" aria-labelledby="t d"><title id="t">Generalization and overfitting</title><desc id="d">Training and unseen-data results for two example models. A memorizing model performs well on training examples but poorly on unseen examples, whereas a model that generalizes performs well on both.</desc><rect width="960" height="420" rx="24" fill="#101828"/>
+<text x="42" y="52" font-family="Arial" font-size="29" font-weight="700" fill="#F9FAFB">High training accuracy is not enough</text>
+<g font-family="Arial" font-size="19" fill="#E2E8F0"><text x="52" y="128">Model A: memorizes</text><text x="52" y="253">Model B: generalizes</text></g>
+<g font-family="Arial" font-size="16" fill="#CBD5E1"><text x="302" y="102">Training examples</text><text x="610" y="102">New examples</text></g>
+<rect x="302" y="143" width="250" height="30" rx="7" fill="#334155"/><rect x="302" y="143" width="239" height="30" rx="7" fill="#38BDF8"/><text x="560" y="164" font-family="Arial" font-size="17" fill="white">96%</text>
+<rect x="610" y="143" width="250" height="30" rx="7" fill="#334155"/><rect x="610" y="143" width="120" height="30" rx="7" fill="#F87171"/><text x="869" y="164" font-family="Arial" font-size="17" fill="white">48%</text>
+<rect x="302" y="267" width="250" height="30" rx="7" fill="#334155"/><rect x="302" y="267" width="225" height="30" rx="7" fill="#38BDF8"/><text x="560" y="288" font-family="Arial" font-size="17" fill="white">90%</text>
+<rect x="610" y="267" width="250" height="30" rx="7" fill="#334155"/><rect x="610" y="267" width="213" height="30" rx="7" fill="#4ADE80"/><text x="869" y="288" font-family="Arial" font-size="17" fill="white">85%</text>
+<text x="480" y="373" text-anchor="middle" font-family="Arial" font-size="17" fill="#CBD5E1">Illustrative numbers only — not results from a real experiment.</text>
+</svg>
