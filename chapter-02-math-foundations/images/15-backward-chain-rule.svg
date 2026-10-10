@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<!DOCTYPE svg PUBLIC "-//W3C//DTD SVG 1.1//EN"
+  "http://www.w3.org/Graphics/SVG/1.1/DTD/svg11.dtd">
+<svg xmlns:xlink="http://www.w3.org/1999/xlink" width="747.36pt" height="274.284pt" viewBox="0 0 747.36 274.284" xmlns="http://www.w3.org/2000/svg" version="1.1">
+ <metadata>
+  <rdf:RDF xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:cc="http://creativecommons.org/ns#" xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+   <cc:Work>
+    <dc:type rdf:resource="http://purl.org/dc/dcmitype/StillImage"/>
+    <dc:date>2026-10-10T10:02:41.096760</dc:date>
+    <dc:format>image/svg+xml</dc:format>
+    <dc:creator>
+     <cc:Agent>
+      <dc:title>Matplotlib v3.10.8, https://matplotlib.org/</dc:title>
+     </cc:Agent>
+    </dc:creator>
+   </cc:Work>
+  </rdf:RDF>
+ </metadata>
+ <defs>
+  <style type="text/css">*{stroke-linejoin: round; stroke-linecap: butt}</style>
+ </defs>
+ <g id="figure_1">
+  <g id="patch_1">
+   <path d="M 0 274.284 
+L 747.36 274.284 
+L 747.36 0 
+L 0 0 
+z
+" style="fill: #ffffff"/>
+  </g>
+  <g id="axes_1">
+   <g id="patch_2">
+    <path d="M 36.09 167.3568 
+L 171.126 167.3568 
+Q 178.38 167.3568 178.38 160.1496 
+L 178.38 98.0568 
+Q 178.38 90.8496 171.126 90.8496 
+L 36.09 90.8496 
+Q 28.836 90.8496 28.836 98.0568 
+L 28.836 160.1496 
+Q 28.836 167.3568 36.09 167.3568 
+z
+" clip-path="url(#p1973927404)" style="fill: #f5f9fb; stroke: #c17b16; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_3">
+    <path d="M 185.957547 129.6576 
+Q 201.255979 129.6576 214.318342 129.6576 
+" clip-path="url(#p1973927404)" style="fill: none; stroke: #007f84; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 207.118342 126.0576 
+L 214.318342 129.6576 
+L 207.118342 133.2576 
+z
+" clip-path="url(#p1973927404)" style="fill: #007f84; stroke: #007f84; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_4">
+    <path d="M 230.274 167.3568 
+L 361.962 167.3568 
+Q 369.216 167.3568 369.216 160.1496 
+L 369.216 98.0568 
+Q 369.216 90.8496 361.962 90.8496 
+L 230.274 90.8496 
+Q 223.02 90.8496 223.02 98.0568 
+L 223.02 160.1496 
+Q 223.02 167.3568 230.274 167.3568 
+z
+" clip-path="url(#p1973927404)" style="fill: #f5f9fb; stroke: #007f84; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="patch_5">
+    <path d="M 378.468569 129.6576 
+Q 393.489008 129.6576 406.273379 129.6576 
+" clip-path="url(#p1973927404)" style="fill: none; stroke: #007f84; stroke-width: 2; stroke-linecap: round"/>
+    <path d="M 399.073379 126.0576 
+L 406.273379 129.6576 
+L 399.073379 133.2576 
+z
+" clip-path="url(#p1973927404)" style="fill: #007f84; stroke: #007f84; stroke-width: 2; stroke-linecap: round"/>
+   </g>
+   <g id="patch_6">
+    <path d="M 422.226 167.3568 
+L 677.79 167.3568 
+Q 685.044 167.3568 685.044 160.1496 
+L 685.044 98.0568 
+Q 685.044 90.8496 677.79 90.8496 
+L 422.226 90.8496 
+Q 414.972 90.8496 414.972 98.0568 
+L 414.972 160.1496 
+Q 414.972 167.3568 422.226 167.3568 
+z
+" clip-path="url(#p1973927404)" style="fill: #f5f9fb; stroke: #2a8157; stroke-width: 2; stroke-linejoin: miter"/>
+   </g>
+   <g id="text_1">
+    <text style="font-weight: 700; font-size: 17px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: start; fill: #162944" x="27.72" y="43.337344" transform="rotate(-0 27.72 43.337344)">Backward pass: follow the chain rule from loss to weight</text>
+   </g>
+   <g id="text_2">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #162944" x="103.608" y="122.587766" transform="rotate(-0 103.608 122.587766)">L = (ŷ − 5)²</text>
+   </g>
+   <g id="text_3">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #52677d" x="103.608" y="148.561519" transform="rotate(-0 103.608 148.561519)">dL / dŷ = −4</text>
+   </g>
+   <g id="text_4">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #162944" x="296.118" y="122.587766" transform="rotate(-0 296.118 122.587766)">ŷ = 2w + 1</text>
+   </g>
+   <g id="text_5">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #52677d" x="296.118" y="148.561519" transform="rotate(-0 296.118 148.561519)">dŷ / dw = 2</text>
+   </g>
+   <g id="text_6">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #162944" x="550.008" y="122.378547" transform="rotate(-0 550.008 122.378547)">dL / dw = (−4) × 2 = −8</text>
+   </g>
+   <g id="text_7">
+    <text style="font-size: 10px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #52677d" x="550.008" y="148.361519" transform="rotate(-0 550.008 148.361519)">a negative gradient means increase w</text>
+   </g>
+   <g id="text_8">
+    <text style="font-weight: 700; font-size: 13px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #162944" x="365.31" y="199.512" transform="rotate(-0 365.31 199.512)">Weight update: w_new = 1 − 0.1 × (−8) = 1.8</text>
+   </g>
+   <g id="text_9">
+    <text style="font-size: 11px; font-family: 'DejaVu Sans', 'Bitstream Vera Sans', 'Computer Modern Sans Serif', 'Lucida Grande', 'Verdana', 'Geneva', 'Lucid', 'Arial', 'Helvetica', 'Avant Garde', sans-serif; text-anchor: middle; fill: #52677d" x="365.31" y="228.8952" transform="rotate(-0 365.31 228.8952)">New prediction = 2×1.8 + 1 = 4.6    •    new squared error = 0.16</text>
+   </g>
+  </g>
+ </g>
+ <defs>
+  <clipPath id="p1973927404">
+   <rect x="16.56" y="16.56" width="714.24" height="241.164"/>
+  </clipPath>
+ </defs>
+</svg>

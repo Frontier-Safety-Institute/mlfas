@@ -1,0 +1,51 @@
+{
+  "chapter": 2,
+  "slug": "chapter-02-math-foundations",
+  "title": "Mathematical Foundations for Machine Learning",
+  "format": "jupyter-notebook",
+  "entry": "00-chapter-02-complete-workbook.ipynb",
+  "lessons": [
+    {
+      "order": 1,
+      "title": "Data manipulation and tensors",
+      "path": "01-data-manipulation-and-tensors.ipynb",
+      "kind": "lesson"
+    },
+    {
+      "order": 2,
+      "title": "Data preprocessing",
+      "path": "02-data-preprocessing.ipynb",
+      "kind": "lesson"
+    },
+    {
+      "order": 3,
+      "title": "Linear algebra",
+      "path": "03-linear-algebra.ipynb",
+      "kind": "lesson"
+    },
+    {
+      "order": 4,
+      "title": "Calculus and automatic differentiation",
+      "path": "04-calculus-and-autograd.ipynb",
+      "kind": "lesson"
+    },
+    {
+      "order": 5,
+      "title": "Probability and statistics",
+      "path": "05-probability-and-statistics.ipynb",
+      "kind": "lesson"
+    },
+    {
+      "order": 6,
+      "title": "PyTorch documentation reference",
+      "path": "06-pytorch-documentation-reference.ipynb",
+      "kind": "reference"
+    }
+  ],
+  "quiz": "quizzes/chapter-02-checkpoint.ipynb",
+  "images": {
+    "preferred": "svg",
+    "fallback": "png",
+    "count": 19
+  }
+}
