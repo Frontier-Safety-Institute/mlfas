@@ -46,6 +46,6 @@
   "images": {
     "preferred": "svg",
     "fallback": "png",
-    "count": 19
+    "count": 20
   }
 }
