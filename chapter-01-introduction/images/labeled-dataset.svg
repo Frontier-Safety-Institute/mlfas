@@ -1,0 +1,26 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 390" role="img" aria-labelledby="tt dd">
+<title id="tt">Each example includes an input and its label</title>
+<desc id="dd">A four-row table with email text and correct spam or not-spam labels.</desc>
+<rect width="960" height="390" rx="22" fill="#0B1220"/>
+<text x="42" y="47" fill="#F8FAFC" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="bold" text-anchor="start">Each example includes an input and its label</text>
+<rect x="42" y="88" width="876" height="44" rx="8" fill="#223450" stroke="#223450" stroke-width="1"/>
+<text x="65" y="117" fill="#F8FAFC" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="bold" text-anchor="start">INPUT: the email text</text>
+<text x="665" y="117" fill="#F8FAFC" font-family="Arial,Helvetica,sans-serif" font-size="19" font-weight="bold" text-anchor="start">LABEL: answer</text>
+<rect x="42" y="140" width="876" height="44" rx="6" fill="#121D30" stroke="#223450" stroke-width="1"/>
+<text x="65" y="168" fill="#F8FAFC" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="normal" text-anchor="start">Claim your free prize</text>
+<rect x="674" y="145" width="174" height="33" rx="10" fill="#142238" stroke="#FB7185" stroke-width="1"/>
+<text x="761.0" y="168" fill="#FB7185" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="bold" text-anchor="middle">SPAM</text>
+<rect x="42" y="189" width="876" height="44" rx="6" fill="#121D30" stroke="#223450" stroke-width="1"/>
+<text x="65" y="217" fill="#F8FAFC" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="normal" text-anchor="start">Meeting tomorrow at ten</text>
+<rect x="674" y="194" width="174" height="33" rx="10" fill="#142238" stroke="#2DD4BF" stroke-width="1"/>
+<text x="761.0" y="217" fill="#2DD4BF" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="bold" text-anchor="middle">NOT SPAM</text>
+<rect x="42" y="238" width="876" height="44" rx="6" fill="#121D30" stroke="#223450" stroke-width="1"/>
+<text x="65" y="266" fill="#F8FAFC" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="normal" text-anchor="start">Collect your gift today</text>
+<rect x="674" y="243" width="174" height="33" rx="10" fill="#142238" stroke="#FB7185" stroke-width="1"/>
+<text x="761.0" y="266" fill="#FB7185" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="bold" text-anchor="middle">SPAM</text>
+<rect x="42" y="287" width="876" height="44" rx="6" fill="#121D30" stroke="#223450" stroke-width="1"/>
+<text x="65" y="315" fill="#F8FAFC" font-family="Arial,Helvetica,sans-serif" font-size="18" font-weight="normal" text-anchor="start">Can you send the notes?</text>
+<rect x="674" y="292" width="174" height="33" rx="10" fill="#142238" stroke="#2DD4BF" stroke-width="1"/>
+<text x="761.0" y="315" fill="#2DD4BF" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="bold" text-anchor="middle">NOT SPAM</text>
+<text x="42" y="366" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="normal" text-anchor="start">Training examples = inputs + known labels. A dataset contains many examples.</text>
+</svg>

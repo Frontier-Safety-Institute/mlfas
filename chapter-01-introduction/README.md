@@ -1,42 +1,38 @@
 # MLFAS — Chapter 01: Introduction to Machine Learning
 
-**Audience:** absolute beginners  
-**Time:** three short lessons of about 15–20 minutes each, plus an optional practical  
-**Approach:** one running example (spam email detection), accessible diagrams, short checks, and a gentle bridge to technical AI safety.
+**Audience:** Absolute beginners  
+**Format:** Three illustrated Jupyter Notebooks (`.ipynb`), one optional coding notebook, SVG diagrams and JSON practice quizzes.  
+**Suggested pace:** 15–25 minutes per lesson, plus optional hands-on experiment.  
+**Teaching thread:** One spam-email example connects all three lessons.
 
 ## Lessons
 
-1. [What Is Machine Learning?](./01-what-is-machine-learning.md) — examples, inputs, labels, models, training vs. inference.
-2. [How Machines Learn](./02-how-machines-learn.md) — data, loss, optimization, learning methods, deep learning.
-3. [When Machine Learning Goes Wrong](./03-when-ml-goes-wrong.md) — generalization, overfitting, distribution shift, safety, alignment, security.
+1. [What Is Machine Learning?](01-what-is-machine-learning.ipynb) — traditional programming, labeled data, features, models, training versus inference and kinds of predictions.
+2. [How Machines Learn](02-how-machines-learn.ipynb) — data, model, loss, optimization, supervised/self-supervised/reinforcement learning, and deep neural networks.
+3. [When Machine Learning Goes Wrong](03-when-ml-goes-wrong.ipynb) — generalization, overfitting, shortcuts, distribution shift, objective mismatch, prompt injection and technical AI safety.
 
-### Optional lab
+**Optional lab:** [Build a tiny spam detector](notebooks/first-ml-model.ipynb), using `scikit-learn`. This is a toy demonstration, not a production spam filter.
 
-[First ML Model: Spam Detector](./notebooks/first-ml-model.ipynb) — train and test a small model using Python. The notebook needs `scikit-learn` and works in Jupyter or Google Colab. It is **not** a production spam filter.
+## Diagrams, quizzes and assets
 
-### Reusable assets
+- All diagrams are original/local **SVG vector graphics** in `images/`; each lesson refers to them with notebook-relative links `images/file.svg`.
+- Each lesson ends with a brief *stop and check*. A separate `quizzes/lesson-XX.json` contains four practice questions and explanations.
+- `chapter.json` is the course-platform manifest. It now points to the `.ipynb` lessons.
+- The three main lessons contain very small, **optional** Python cells; the material can also be read without running Python.
 
-- `images/*.svg`: original vector diagrams referenced via **relative paths** from lessons.
-- `quizzes/lesson-*.json`: 4 practice questions per lesson, with explanations.
-- `chapter.json`: ordered manifest for a website content importer.
+## Publishing as Jupyter Book
 
-## Website integration
+This folder is **not an independent Jupyter Book project**. Keep **one** book configuration and table of contents at the overall `mlfas/` (or your repository's chosen) root, combining Chapter 1 and Chapter 2. Include these three notebook paths in that overall table of contents. Jupyter Book can present Markdown and executable notebooks together.
 
-1. Copy the entire `chapter-01-introduction/` folder into `mlfas/` in your curriculum repository.
-2. Parse Markdown front matter for title, slug, chapter order, reading estimate, and prerequisites.
-3. Render Markdown and SVG assets. Preserve relative asset paths when deploying.
-4. Import `chapter.json` to build chapter navigation, and the quiz JSON files for **ungraded practice**.
-5. Prefer a build-time or webhook-triggered content sync instead of fetching every file live from GitHub on each visit.
-6. Track student completion and serious quiz results in your application's database. Do **not** treat `correct_option_index` in a public GitHub JSON file as a secure answer key for graded assessments.
-7. Serve or link the `.ipynb` file from the site (for example, a link to download or open in Jupyter/Colab). You do not need to execute arbitrary notebook code on your website's server.
+To build your own learning website, import notebook Markdown cells for explanations, render images with their chapter-relative paths, and handle code cells as read-only snippets unless an interactive execution environment is specifically provided. Keep assessment records in your platform database, not GitHub. The quiz JSON contains visible answer keys and is suited to practice, not sealed grading.
 
-## Editorial notes
+## Quality and safety notes
 
-- Keep each lesson clear enough to read without advanced mathematics or coding.
-- More detailed math (probability, calculus, vectors, gradient descent), neural network implementation, transformers, and RL theory belong in later chapters.
-- Every diagram has an SVG `<title>` and `<desc>` for accessibility; every Markdown reference has meaningful alt text.
-- All quiz examples, diagrams, lesson sequencing, and prose in this starter pack are newly written.
+- All lessons can be read without knowing Python, calculus or linear algebra.
+- Illustrative diagrams are conceptual and not results of actual ML experiments.
+- The optional lab depends on `scikit-learn`, and the core lesson code cells use only the Python standard library.
+- Avoid executing untrusted notebook code automatically on a public server.
 
-## Attribution and further reading
+## Attribution
 
-Conceptual reference: [*Dive into Deep Learning*, Chapter 1 (Introduction)](https://d2l.ai/chapter_introduction/index.html), by Aston Zhang, Zack C. Lipton, Mu Li, and Alex J. Smola. The D2L book is distributed under [CC BY-SA 4.0](https://github.com/d2l-ai/d2l-en). This chapter uses independent explanations and examples rather than reproducing D2L's original chapter. If you later copy or closely adapt D2L prose or illustrations, follow its attribution and ShareAlike requirements.
+The structure and underlying introductory subject matter are informed by [*Dive into Deep Learning*, Introduction](https://d2l.ai/chapter_introduction/index.html). The lesson prose and locally included diagrams are independently authored for FSI. Consult the D2L license if you later copy their text or images.

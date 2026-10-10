@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 390" role="img" aria-labelledby="tt dd">
+<title id="tt">Three useful ways to learn</title>
+<desc id="dd">Supervised learning uses labeled emails; self-supervised text training predicts next tokens; reinforcement learning uses actions and rewards.</desc>
+<rect width="960" height="390" rx="22" fill="#0B1220"/>
+<text x="42" y="47" fill="#F8FAFC" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="bold" text-anchor="start">Three useful ways to learn</text>
+<rect x="28" y="101" width="295" height="204" rx="14" fill="#142238" stroke="#38BDF8" stroke-width="1"/>
+<text x="46" y="137" fill="#38BDF8" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" text-anchor="start">SUPERVISED</text>
+<text x="46" y="173" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">Email + SPAM label</text>
+<text x="46" y="198" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">Predict given answer</text>
+<rect x="334" y="101" width="294" height="204" rx="14" fill="#142238" stroke="#C4B5FD" stroke-width="1"/>
+<text x="352" y="137" fill="#C4B5FD" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" text-anchor="start">SELF-SUPERVISED</text>
+<text x="352" y="173" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">&quot;The cat sat on the ...&quot;</text>
+<text x="352" y="198" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">Predict the next token</text>
+<rect x="639" y="101" width="294" height="204" rx="14" fill="#142238" stroke="#2DD4BF" stroke-width="1"/>
+<text x="657" y="137" fill="#2DD4BF" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" text-anchor="start">REINFORCEMENT</text>
+<text x="657" y="173" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">Agent chooses an action</text>
+<text x="657" y="198" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">Environment gives reward</text>
+<text x="42" y="366" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="normal" text-anchor="start">These are different training setups; large AI systems may combine them.</text>
+</svg>

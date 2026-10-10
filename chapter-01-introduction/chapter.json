@@ -8,19 +8,21 @@
   "lessons": [
     {
       "slug": "what-is-machine-learning",
-      "file": "01-what-is-machine-learning.md",
+      "file": "01-what-is-machine-learning.ipynb",
       "quiz": "quizzes/lesson-01.json"
     },
     {
       "slug": "how-machines-learn",
-      "file": "02-how-machines-learn.md",
+      "file": "02-how-machines-learn.ipynb",
       "quiz": "quizzes/lesson-02.json"
     },
     {
       "slug": "when-ml-goes-wrong",
-      "file": "03-when-ml-goes-wrong.md",
+      "file": "03-when-ml-goes-wrong.ipynb",
       "quiz": "quizzes/lesson-03.json"
     }
   ],
-  "optional_notebook": "notebooks/first-ml-model.ipynb"
+  "optional_notebook": "notebooks/first-ml-model.ipynb",
+  "lesson_format": "jupyter-notebook",
+  "illustrations": 19
 }

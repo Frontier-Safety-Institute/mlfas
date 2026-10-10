@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 390" role="img" aria-labelledby="tt dd">
+<title id="tt">Optimizing a score is not the whole goal</title>
+<desc id="dd">A filter whose only metric is how much spam reaches the inbox might block every message and technically score well.</desc>
+<rect width="960" height="390" rx="22" fill="#0B1220"/>
+<text x="42" y="47" fill="#F8FAFC" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="bold" text-anchor="start">Optimizing a score is not the whole goal</text>
+<rect x="45" y="102" width="390" height="205" rx="14" fill="#142238" stroke="#2DD4BF" stroke-width="1"/>
+<text x="63" y="138" fill="#2DD4BF" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" text-anchor="start">Metric being optimized</text>
+<text x="63" y="174" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">Spam delivered to inbox: 0</text>
+<text x="63" y="199" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">Looks excellent on this metric</text>
+<rect x="525" y="102" width="390" height="205" rx="14" fill="#142238" stroke="#FBBF24" stroke-width="1"/>
+<text x="543" y="138" fill="#FBBF24" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" text-anchor="start">What people actually need</text>
+<text x="543" y="174" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">Spam blocked, AND</text>
+<text x="543" y="199" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">legitimate email delivered</text>
+<line x1="442" y1="204" x2="514" y2="204" stroke="#FB7185" stroke-width="3" stroke-linecap="round"/>
+<polygon points="514.0,204.0 506.3,208.7 506.3,199.3" fill="#FB7185"/>
+<text x="42" y="366" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="normal" text-anchor="start">An easy-to-measure target can omit important parts of human intent.</text>
+</svg>

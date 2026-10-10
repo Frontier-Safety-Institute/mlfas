@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 390" role="img" aria-labelledby="tt dd">
+<title id="tt">Gradient descent: a downhill intuition</title>
+<desc id="dd">A simple U-shaped loss curve with points moving towards a lower loss, illustrating optimization.</desc>
+<rect width="960" height="390" rx="22" fill="#0B1220"/>
+<text x="42" y="47" fill="#F8FAFC" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="bold" text-anchor="start">Gradient descent: a downhill intuition</text>
+<line x1="95" y1="320" x2="876" y2="320" stroke="#C0CEDF" stroke-width="2" stroke-linecap="round"/>
+<line x1="95" y1="320" x2="95" y2="85" stroke="#C0CEDF" stroke-width="2" stroke-linecap="round"/>
+<text x="485" y="346" fill="#F8FAFC" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="bold" text-anchor="middle">Parameter value</text>
+<text x="48" y="110" fill="#F8FAFC" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="bold" text-anchor="start">Loss</text>
+<polyline points="125.0,90.0 133.0,98.3 141.0,106.5 149.0,114.5 157.0,122.3 165.0,129.9 173.0,137.3 181.0,144.6 189.0,151.7 197.0,158.6 205.0,165.3 213.0,171.9 221.0,178.3 229.0,184.5 237.0,190.5 245.0,196.4 253.0,202.0 261.0,207.5 269.0,212.9 277.0,218.0 285.0,223.0 293.0,227.8 301.0,232.4 309.0,236.8 317.0,241.0 325.0,245.1 333.0,249.0 341.0,252.7 349.0,256.3 357.0,259.7 365.0,262.9 373.0,265.9 381.0,268.7 389.0,271.4 397.0,273.8 405.0,276.1 413.0,278.3 421.0,280.2 429.0,282.0 437.0,283.6 445.0,285.0 453.0,286.3 461.0,287.3 469.0,288.2 477.0,288.9 485.0,289.4 493.0,289.8 501.0,290.0 509.0,290.0 517.0,289.8 525.0,289.4 533.0,288.9 541.0,288.2 549.0,287.3 557.0,286.3 565.0,285.0 573.0,283.6 581.0,282.0 589.0,280.2 597.0,278.3 605.0,276.1 613.0,273.8 621.0,271.4 629.0,268.7 637.0,265.9 645.0,262.9 653.0,259.7 661.0,256.3 669.0,252.7 677.0,249.0 685.0,245.1 693.0,241.0 701.0,236.8 709.0,232.4 717.0,227.8 725.0,223.0 733.0,218.0 741.0,212.9 749.0,207.5 757.0,202.0 765.0,196.4 773.0,190.5 781.0,184.5 789.0,178.3 797.0,171.9 805.0,165.3 813.0,158.6 821.0,151.7 829.0,144.6 837.0,137.3 845.0,129.9 853.0,122.3" fill="none" stroke="#38BDF8" stroke-width="5" stroke-linejoin="round"/>
+<circle cx="170" cy="134.56371191135736" r="8" fill="#FB7185" stroke="none" stroke-width="0"/>
+<circle cx="296" cy="229.5" r="8" fill="#FBBF24" stroke="none" stroke-width="0"/>
+<circle cx="401" cy="275.01939058171746" r="8" fill="#2DD4BF" stroke="none" stroke-width="0"/>
+<circle cx="495" cy="289.8614958448753" r="8" fill="#86EFAC" stroke="none" stroke-width="0"/>
+<line x1="186" y1="154" x2="270" y2="211" stroke="#FBBF24" stroke-width="3" stroke-linecap="round"/>
+<polygon points="270.0,211.0 261.0,210.6 266.3,202.8" fill="#FBBF24"/>
+<line x1="312" y1="241" x2="383" y2="273" stroke="#FBBF24" stroke-width="3" stroke-linecap="round"/>
+<polygon points="383.0,273.0 374.1,274.1 377.9,265.6" fill="#FBBF24"/>
+<line x1="418" y1="284" x2="477" y2="290" stroke="#FBBF24" stroke-width="3" stroke-linecap="round"/>
+<polygon points="477.0,290.0 468.9,293.9 469.8,284.5" fill="#FBBF24"/>
+<text x="715" y="110" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="normal" text-anchor="start">Illustrative only</text>
+<text x="42" y="366" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="normal" text-anchor="start">Optimizers adjust parameters to reduce loss; real training is higher-dimensional and noisy.</text>
+</svg>

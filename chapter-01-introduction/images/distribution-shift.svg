@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 390" role="img" aria-labelledby="tt dd">
+<title id="tt">Distribution shift: what changes after training?</title>
+<desc id="dd">Model trained mainly on English spam then sees different language and unfamiliar phrasing after deployment.</desc>
+<rect width="960" height="390" rx="22" fill="#0B1220"/>
+<text x="42" y="47" fill="#F8FAFC" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="bold" text-anchor="start">Distribution shift: what changes after training?</text>
+<rect x="45" y="105" width="408" height="191" rx="14" fill="#142238" stroke="#2DD4BF" stroke-width="1"/>
+<text x="63" y="141" fill="#2DD4BF" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" text-anchor="start">Training data</text>
+<text x="63" y="177" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">English spam examples</text>
+<text x="63" y="202" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">Familiar word patterns</text>
+<line x1="463" y1="205" x2="499" y2="205" stroke="#FBBF24" stroke-width="3" stroke-linecap="round"/>
+<polygon points="499.0,205.0 491.3,209.7 491.3,200.3" fill="#FBBF24"/>
+<rect x="512" y="105" width="404" height="191" rx="14" fill="#142238" stroke="#FB7185" stroke-width="1"/>
+<text x="530" y="141" fill="#FB7185" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" text-anchor="start">After deployment</text>
+<text x="530" y="177" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">Other languages and tactics</text>
+<text x="530" y="202" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">Performance may worsen</text>
+<text x="42" y="366" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="normal" text-anchor="start">The real world can differ from the distribution used to train and evaluate a model.</text>
+</svg>

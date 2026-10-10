@@ -1,0 +1,19 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 390" role="img" aria-labelledby="tt dd">
+<title id="tt">Three overlapping questions</title>
+<desc id="dd">Safety concerns avoiding harm, alignment concerns goals and intended behavior, and security concerns resistance to attacks.</desc>
+<rect width="960" height="390" rx="22" fill="#0B1220"/>
+<text x="42" y="47" fill="#F8FAFC" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="bold" text-anchor="start">Three overlapping questions</text>
+<rect x="27" y="105" width="288" height="192" rx="14" fill="#142238" stroke="#38BDF8" stroke-width="1"/>
+<text x="45" y="141" fill="#38BDF8" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" text-anchor="start">AI SAFETY</text>
+<text x="45" y="177" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">How can we reduce</text>
+<text x="45" y="202" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">harmful failures?</text>
+<rect x="335" y="105" width="287" height="192" rx="14" fill="#142238" stroke="#2DD4BF" stroke-width="1"/>
+<text x="353" y="141" fill="#2DD4BF" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" text-anchor="start">AI ALIGNMENT</text>
+<text x="353" y="177" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">Does behavior match</text>
+<text x="353" y="202" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">our intended goals?</text>
+<rect x="642" y="105" width="289" height="192" rx="14" fill="#142238" stroke="#C4B5FD" stroke-width="1"/>
+<text x="660" y="141" fill="#C4B5FD" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" text-anchor="start">AI SECURITY</text>
+<text x="660" y="177" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">Can attackers cause</text>
+<text x="660" y="202" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">unauthorized behavior?</text>
+<text x="42" y="366" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="normal" text-anchor="start">These research areas overlap; a security failure can become a safety failure.</text>
+</svg>

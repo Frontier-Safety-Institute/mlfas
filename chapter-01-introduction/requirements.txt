@@ -1,0 +1,3 @@
+nbformat>=5.9
+# For the optional spam-classification lab only:
+scikit-learn>=1.3

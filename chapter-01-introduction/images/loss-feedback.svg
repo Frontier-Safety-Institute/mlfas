@@ -1,0 +1,23 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 390" role="img" aria-labelledby="tt dd">
+<title id="tt">Loss: how wrong was the prediction?</title>
+<desc id="dd">A spam example has a correct label Spam while the model predicts Not spam, and a loss measurement gives training feedback.</desc>
+<rect width="960" height="390" rx="22" fill="#0B1220"/>
+<text x="42" y="47" fill="#F8FAFC" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="bold" text-anchor="start">Loss: how wrong was the prediction?</text>
+<rect x="42" y="96" width="266" height="195" rx="14" fill="#142238" stroke="#38BDF8" stroke-width="1"/>
+<text x="60" y="132" fill="#38BDF8" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" text-anchor="start">Training example</text>
+<text x="60" y="168" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">&quot;You won a prize&quot;</text>
+<text x="60" y="193" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">Correct: SPAM</text>
+<line x1="322" y1="197" x2="369" y2="197" stroke="#38BDF8" stroke-width="3" stroke-linecap="round"/>
+<polygon points="369.0,197.0 361.3,201.7 361.3,192.3" fill="#38BDF8"/>
+<rect x="386" y="96" width="248" height="195" rx="14" fill="#142238" stroke="#FB7185" stroke-width="1"/>
+<text x="404" y="132" fill="#FB7185" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" text-anchor="start">Model output</text>
+<text x="404" y="168" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">Predicted: NOT SPAM</text>
+<text x="404" y="193" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">This is a mistake</text>
+<line x1="648" y1="197" x2="693" y2="197" stroke="#38BDF8" stroke-width="3" stroke-linecap="round"/>
+<polygon points="693.0,197.0 685.3,201.7 685.3,192.3" fill="#38BDF8"/>
+<rect x="711" y="96" width="209" height="195" rx="14" fill="#142238" stroke="#FBBF24" stroke-width="1"/>
+<text x="729" y="132" fill="#FBBF24" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" text-anchor="start">Loss</text>
+<text x="729" y="168" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">Measures mismatch</text>
+<text x="729" y="193" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">Smaller is better</text>
+<text x="42" y="366" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="normal" text-anchor="start">Real loss functions often use prediction scores or probabilities—not only right/wrong.</text>
+</svg>

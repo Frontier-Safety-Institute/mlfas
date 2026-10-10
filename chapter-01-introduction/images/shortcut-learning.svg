@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 390" role="img" aria-labelledby="tt dd">
+<title id="tt">A model may learn the wrong shortcut</title>
+<desc id="dd">A training set where spam often contains the word free can cause an incorrect flag on a harmless message saying Are you free tonight.</desc>
+<rect width="960" height="390" rx="22" fill="#0B1220"/>
+<text x="42" y="47" fill="#F8FAFC" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="bold" text-anchor="start">A model may learn the wrong shortcut</text>
+<rect x="45" y="104" width="410" height="188" rx="14" fill="#142238" stroke="#38BDF8" stroke-width="1"/>
+<text x="63" y="140" fill="#38BDF8" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" text-anchor="start">What the data accidentally suggests</text>
+<text x="63" y="176" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">&quot;Free prize!&quot; → spam</text>
+<text x="63" y="201" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">&quot;Free gift!&quot; → spam</text>
+<rect x="506" y="104" width="408" height="188" rx="14" fill="#142238" stroke="#FB7185" stroke-width="1"/>
+<text x="524" y="140" fill="#FB7185" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" text-anchor="start">Unseen normal email</text>
+<text x="524" y="176" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">&quot;Are you free tonight?&quot;</text>
+<text x="524" y="201" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">Incorrectly flagged as spam</text>
+<line x1="457" y1="196" x2="501" y2="196" stroke="#FBBF24" stroke-width="3" stroke-linecap="round"/>
+<polygon points="501.0,196.0 493.3,200.7 493.3,191.3" fill="#FBBF24"/>
+<text x="42" y="366" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="normal" text-anchor="start">A correlation in training data may not be a reliable rule for new messages.</text>
+</svg>

@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 390" role="img" aria-labelledby="tt dd">
+<title id="tt">Two common kinds of prediction</title>
+<desc id="dd">Classification predicts a category such as spam; regression predicts a number such as house price.</desc>
+<rect width="960" height="390" rx="22" fill="#0B1220"/>
+<text x="42" y="47" fill="#F8FAFC" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="bold" text-anchor="start">Two common kinds of prediction</text>
+<rect x="40" y="104" width="425" height="216" rx="14" fill="#142238" stroke="#38BDF8" stroke-width="1"/>
+<text x="58" y="140" fill="#38BDF8" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" text-anchor="start">CLASSIFICATION</text>
+<text x="58" y="176" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">Question: which category?</text>
+<text x="58" y="201" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">Example: spam / not spam</text>
+<rect x="70" y="238" width="161" height="35" rx="10" fill="#142238" stroke="#FB7185" stroke-width="1"/>
+<text x="150.5" y="261" fill="#FB7185" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="bold" text-anchor="middle">SPAM</text>
+<rect x="248" y="238" width="169" height="35" rx="10" fill="#142238" stroke="#2DD4BF" stroke-width="1"/>
+<text x="332.5" y="261" fill="#2DD4BF" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="bold" text-anchor="middle">NOT SPAM</text>
+<rect x="495" y="104" width="425" height="216" rx="14" fill="#142238" stroke="#FBBF24" stroke-width="1"/>
+<text x="513" y="140" fill="#FBBF24" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" text-anchor="start">REGRESSION</text>
+<text x="513" y="176" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">Question: what number?</text>
+<text x="513" y="201" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">Example: estimated house price</text>
+<rect x="560" y="236" width="279" height="35" rx="10" fill="#142238" stroke="#FBBF24" stroke-width="1"/>
+<text x="699.5" y="259" fill="#FBBF24" font-family="Arial,Helvetica,sans-serif" font-size="15" font-weight="bold" text-anchor="middle">Price: 250,000</text>
+<text x="42" y="366" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="normal" text-anchor="start">Classification chooses discrete classes; regression predicts numerical values.</text>
+</svg>

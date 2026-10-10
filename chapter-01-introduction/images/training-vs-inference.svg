@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 390" role="img" aria-labelledby="tt dd">
+<title id="tt">Training and inference are different</title>
+<desc id="dd">Training compares predictions with known targets and updates model parameters; inference uses a trained model for a new prediction.</desc>
+<rect width="960" height="390" rx="22" fill="#0B1220"/>
+<text x="42" y="47" fill="#F8FAFC" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="bold" text-anchor="start">Training and inference are different</text>
+<rect x="42" y="100" width="414" height="207" rx="14" fill="#142238" stroke="#2DD4BF" stroke-width="1"/>
+<text x="60" y="136" fill="#2DD4BF" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" text-anchor="start">TRAINING</text>
+<text x="60" y="172" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">Examples + correct labels</text>
+<text x="60" y="197" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">→ make prediction</text>
+<text x="60" y="222" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">→ measure error</text>
+<text x="60" y="247" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">→ adjust parameters</text>
+<rect x="503" y="100" width="414" height="207" rx="14" fill="#142238" stroke="#38BDF8" stroke-width="1"/>
+<text x="521" y="136" fill="#38BDF8" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" text-anchor="start">INFERENCE</text>
+<text x="521" y="172" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">New email</text>
+<text x="521" y="197" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">→ trained model</text>
+<text x="521" y="222" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">→ prediction</text>
+<text x="521" y="247" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">No ordinary weight update</text>
+<line x1="456" y1="202" x2="502" y2="202" stroke="#FBBF24" stroke-width="3" stroke-linecap="round"/>
+<polygon points="502.0,202.0 494.3,206.7 494.3,197.3" fill="#FBBF24"/>
+<text x="480" y="189" fill="#FBBF24" font-family="Arial,Helvetica,sans-serif" font-size="13" font-weight="bold" text-anchor="middle">then</text>
+<text x="42" y="366" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="normal" text-anchor="start">Generating one answer does not ordinarily retrain a deployed language model.</text>
+</svg>

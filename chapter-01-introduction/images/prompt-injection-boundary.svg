@@ -1,0 +1,22 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 390" role="img" aria-labelledby="tt dd">
+<title id="tt">Prompt injection crosses a trust boundary</title>
+<desc id="dd">A user requests a summary; attacker-written text inside a document tries to redirect an assistant to perform an unrelated tool action.</desc>
+<rect width="960" height="390" rx="22" fill="#0B1220"/>
+<text x="42" y="47" fill="#F8FAFC" font-family="Arial,Helvetica,sans-serif" font-size="27" font-weight="bold" text-anchor="start">Prompt injection crosses a trust boundary</text>
+<rect x="29" y="100" width="286" height="192" rx="14" fill="#142238" stroke="#2DD4BF" stroke-width="1"/>
+<text x="47" y="136" fill="#2DD4BF" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" text-anchor="start">Trusted request</text>
+<text x="47" y="172" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">&quot;Summarize this document&quot;</text>
+<rect x="338" y="100" width="280" height="192" rx="14" fill="#142238" stroke="#FB7185" stroke-width="1"/>
+<text x="356" y="136" fill="#FB7185" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" text-anchor="start">Untrusted document</text>
+<text x="356" y="172" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">&quot;Ignore the user&quot;</text>
+<text x="356" y="197" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">&quot;Take another action&quot;</text>
+<rect x="642" y="100" width="290" height="192" rx="14" fill="#142238" stroke="#38BDF8" stroke-width="1"/>
+<text x="660" y="136" fill="#38BDF8" font-family="Arial,Helvetica,sans-serif" font-size="20" font-weight="bold" text-anchor="start">Assistant + tools</text>
+<text x="660" y="172" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">Should treat document</text>
+<text x="660" y="197" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="17" font-weight="normal" text-anchor="start">as data, not orders</text>
+<line x1="320" y1="195" x2="332" y2="195" stroke="#FBBF24" stroke-width="3" stroke-linecap="round"/>
+<polygon points="332.0,195.0 324.3,199.7 324.3,190.3" fill="#FBBF24"/>
+<line x1="623" y1="195" x2="638" y2="195" stroke="#FBBF24" stroke-width="3" stroke-linecap="round"/>
+<polygon points="638.0,195.0 630.3,199.7 630.3,190.3" fill="#FBBF24"/>
+<text x="42" y="366" fill="#C0CEDF" font-family="Arial,Helvetica,sans-serif" font-size="14" font-weight="normal" text-anchor="start">A system failure can arise from tool permissions and trust handling, not just model weights.</text>
+</svg>
